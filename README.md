@@ -44,7 +44,7 @@ python basicsr/test.py -opt options/test/AFSMNet/test_benchmark_x4.yml
 - The test results will be in './results'.
 
 ### Results
-![AFSMNet 结果](./AFSMNet/results.png)
+![AFSMNet 结果](./results.png)
 ### Citation
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 ```
