@@ -23,11 +23,11 @@ You can also refer to this [INSTALL.md](https://github.com/XPixelGroup/BasicSR/b
 ### Training
 Run the following commands for training:
 ```
-# train AFSMNet for x2 effieicnt SR
+# train AFSMNet for x2 efficient SR
 python basicsr/train.py -opt options/train/AFSMNet/train_DF2K_x2.yml
-# train AFSMNet for x3 effieicnt SR
+# train AFSMNet for x3 efficient SR
 python basicsr/train.py -opt options/train/AFSMNet/train_DF2K_x3.yml
-# train AFSMNet for x4 effieicnt SR
+# train AFSMNet for x4 efficient SR
 python basicsr/train.py -opt options/train/AFSMNet/train_DF2K_x4.yml
 ```
 ### Testing 
@@ -44,7 +44,7 @@ python basicsr/test.py -opt options/test/AFSMNet/test_benchmark_x4.yml
 - The test results will be in './results'.
 
 ### Results
-![AFSMNet 结果](./1.png)
+![AFSMNet 结果](./results.png)
 ### Citation
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 ```
